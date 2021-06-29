@@ -37,10 +37,10 @@
       type: "doughnut",
       options,
       data: {
-        labels: ["HTML5", "CSS3", "JAVASCRIPT", "JSP"],
+        labels: ["HTML5", "CSS3", "JAVASCRIPT", "Mustache", "Thymeleaf"],
         datasets: [
           {
-            data: [20, 20, 20, 40],
+            data: [20, 20, 20, 30, 10],
             borderColor,
             backgroundColor,
             hoverBackgroundColor,
@@ -56,10 +56,10 @@
       type: "doughnut",
       options,
       data: {
-        labels: ["Java", "Spring", "Koa", "Java", "Spring"],
+        labels: ["Java", "Spring", "SpringBoot", "SpringSecurity"],
         datasets: [
           {
-            data: [30, 20, 10, 20, 20],
+            data: [50, 30, 10, 10],
             borderColor,
             backgroundColor,
             hoverBackgroundColor,
@@ -75,10 +75,10 @@
       type: "doughnut",
       options,
       data: {
-        labels: ["MongoDB", "MySQL", "PostgreSQL"],
+        labels: ["MySQL", "Oracle", "H2-Database", "MariaDB"],
         datasets: [
           {
-            data: [40, 34, 27],
+            data: [30, 10, 20, 40],
             borderColor,
             backgroundColor,
             hoverBackgroundColor,
@@ -94,10 +94,10 @@
       type: "doughnut",
       options,
       data: {
-        labels: ["GitHub", "Asana", "Trello", "Redmine", "Adobe Xd"],
+        labels: ["Git", "GitHub", "Travis-CI", "AWS-CodeDeploy", "AWS-RDS"],
         datasets: [
           {
-            data: [40, 15, 15, 20, 10],
+            data: [20, 15, 25, 30, 20],
             borderColor,
             backgroundColor,
             hoverBackgroundColor,
